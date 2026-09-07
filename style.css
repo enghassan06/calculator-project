@@ -63,12 +63,12 @@
     width: 90%;
   }
   .buttons input {
-    width: 39px;
-    height: 39px;
+    width: 49px;
+    height: 49px;
     font-size: 20px;
     margin: 10px;
   }
   .buttons:last-child input:last-child{
-    width: 100px;
+    width: 120px;
   }
 }
