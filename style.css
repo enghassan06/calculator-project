@@ -58,17 +58,17 @@
   color: aqua;
 }
 
-@media (min-width: 300px) {
-  .calculator{
-    width: 90%;
+@media (max-width: 300px) {
+  .calculator {
+    width: fit-content;
   }
   .buttons input {
-    width: 48px;
-    height: 48px;
+    width: 46px;
+    height: 46px;
     font-size: 20px;
     margin: 10px;
   }
-  .buttons:last-child input:last-child{
+  .buttons:last-child input:last-child {
     width: 120px;
   }
 }
